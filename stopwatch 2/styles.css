@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6; /* Light background color */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #c9c1c1; /* Previous container background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333333; /* Darker text for better contrast */
+    font-size: 32px;
+}
+
+.timer-box {
+    border: 2px solid #007BFF; /* Blue border to match buttons */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background for contrast */
+}
+
+#display {
+    font-size: 48px;
+    color: #007BFF; /* Blue text for the display */
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    padding: 12px 25px; /* Larger buttons */
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF; /* Blue background */
+    color: #fff;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+button:disabled {
+    background-color: #cccccc; /* Light gray for disabled state */
+    cursor: not-allowed;
+}
+
+.laps-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+th {
+    background-color: #f8f9fa; /* Very light gray */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+}
+
+.lap {
+    font-size: 18px;
+}
